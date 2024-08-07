@@ -1,0 +1,58 @@
+body {background-color: darkkhaki;}
+#header-nav {background-color: rgba(213, 87, 42, 0.778);
+    border-radius: 0;
+    border: 0;
+}
+#logo {font-size: 60px;
+    font-weight: bolder;
+    background-color: brown;
+    padding: 15px;
+    outline: 1px solid darkcyan;
+    color: rgb(38, 16, 5);}
+h1{ font-weight: bold;
+    text-shadow: 2px 2px 1px #222;
+    text-transform: uppercase;
+    color: rgb(90, 76, 9);       
+ }
+
+.navbar-header, button, .navbar-toggler, navbar-toggler-icon { 
+    border: 1px solid darkgoldenrod;
+    background-color: darksalmon;
+    padding: 0;
+
+}
+
+#main-content { text-align: center;
+                margin: 15px;}
+
+#dummy-text {
+    text-decoration: none;
+    color: #222;
+}
+
+#menu-tile{ 
+  
+    /*width: 100%;*/
+    background-color: rgb(163, 212, 214);
+    margin: 20px;
+    position: relative;
+    border: 2px solid black;
+    overflow:hidden
+    
+
+}
+#menu-tile:hover, #other-stuff-tile:hover, #map-tile:hover {
+    box-shadow: o 1px 4px 5px #222;
+}
+#menu-title >span, #other-stuff-title >span, #map-title >span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: rgb(222, 212, 168);
+    color:rgb(61, 21, 7);
+}
